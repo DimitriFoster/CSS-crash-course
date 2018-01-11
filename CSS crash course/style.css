@@ -35,6 +35,7 @@ a {
   float:right;
   background-image: url(hiddencity.jpg);
   background-position: center;
+  background-size: 150px 100px;
 }
 
 
@@ -66,7 +67,7 @@ ul{
 /*Use percents for containers and divs for easy responsiveness.
 Percent values automatically adjust their size relative to the size of
 the screen*/
-  width: 80%;
+  width: 50%;
   /*The auto value for the margin property preads the spacing/margain around
   the specified element evenly*/
   margin: auto;
@@ -210,27 +211,29 @@ your width*/
 }
 
 .p-box{
-  width: 800px;
+  box-sizing: border-box;
+  width: 500px;
   height: 500px;
   border: 1px solid #000;
   margin-top: 30px;
   position: relative;
   border-radius: 100px;
   background-image: url(bgimage.jpg);
-  background-repeat:;
+  background-repeat:no-repeat;
   background-position: center;
+  background-size: 500px 500px;
 }
 
 .p-box h1{
-  position: absolute;
-  top:60px;
-  left:600px;
+  position: relative;
+  top: 150px;
+  left: 200px;
 }
 
 .p-box h2{
-  position: absolute;
-  bottom: 40px;
-  right:100px;
+  position:absolute;
+  top: 250px;
+  left: 182px;
 }
 
 .fix-me{
